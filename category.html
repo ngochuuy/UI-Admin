@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/category.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="app">
+        <div class="side-bar">
+            <div class="side-bar__header">
+                <img class="side-bar__header-img" src="./assets/imgs/high-logo-D022924D47-seeklogo.com.png" alt="">
+            </div>
+            <ul class="side-bar__list-item">
+                <li class="side-bar__item ">
+                    <a href="./index.html" class="side-bar__item-link active"> 
+                        <img src="./assets/imgs/home.png" alt="">
+                        <span class="item-title">Thống kê</span>
+                    </a>
+                </li>
+                <li class="side-bar__item ">
+                    <a href="#" class="side-bar__item-link"> 
+                        <img src="./assets/imgs/invoice.png" alt="">
+                        <span class="item-title">Đơn hàng</span>
+                    </a>
+                </li>
+                <li class="side-bar__item ">
+                    <a href="#" class="side-bar__item-link"> 
+                        <img src="./assets/imgs/cus.png" alt="">
+                        <span class="item-title">Khách hàng</span>
+                    </a>
+                </li>
+                <li class="side-bar__item ">
+                    <a href="#" class="side-bar__item-link"> 
+                        <img src="./assets/imgs/product.png" alt="">
+                        <span class="item-title">Sản phẩm</span>
+                    </a>
+                </li>
+                <li class="side-bar__item ">
+                    <a href="#" class="side-bar__item-link"> 
+                        <img src="./assets/imgs/classify.png" alt="">
+                        <span class="item-title">Phân loại</span>
+                    </a>
+                </li>
+                <li class="side-bar__item ">
+                    <a href="#" class="side-bar__item-link"> 
+                        <img src="./assets/imgs/staff.png" alt="">
+                        <span class="item-title">Nhân viên</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="container-header">
+                <div class="sidebar-toggler">
+                    <i class="fa fa-bars"></i>
+                </div>
+                <div class="header__search">
+                    
+                    <div class="header__search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <input type="text" class="header__search-input" placeholder="Tim kiem">
+                </div>
+                <div class="header__right">
+                    <div class="header__right-notify">
+                        <i class="notify-icon fa-solid fa-bell"></i>
+                    </div>
+                    <div class="header__right-user">
+                        <img src="./assets/imgs/high-logo-D022924D47-seeklogo.com.png" alt="" class="header__right-user-img">
+                        <span class="header__right-user-name">Chu shop high</span>
+                        <i class="icon-down fa-solid fa-angle-down"></i>
+                        <ul class="user-menu">
+                            <li class="user-item">
+                                <a href="#" class="user-item-link">Thông tin cá nhân</a></li>
+                            <li class="user-item">
+                                <a href="#" class="user-item-link">Cài đặt</a></li>
+                            <li class="user-item">
+                                <a href="#" class="user-item-link">Đăng xuất</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container-body">
+                <div class="table-classify">
+                    <div class="classify__header">
+                        <h6 class="classify__header-title">
+                            Phân loại
+                        </h6>
+                        <div class="btn-add">
+                            <a href="#" class="btn-add-link">
+                                <i class="fa-solid fa-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="classify__body">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        <div class="check-box head">
+
+                                        </div>
+                                    </th>
+                                    <th>ID</th>
+                                    <th>Tên</th>
+                                    <th>Loại</th>
+                                    <th>Thao tác</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="check-box ">
+
+                                        </div>
+                                    </td>
+                                    <td>1</td>
+                                    <td>Áo ngắn tay</td>
+                                    <td>Áo</td>
+                                    <td>
+                                        <a href="#" class="active-link">
+                                            <i class="fa-solid fa-pen-to-square"></i>
+                                        </a>
+                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="check-box">
+
+                                        </div>
+                                    </td>
+                                    <td>2</td>
+                                    <td>Quần dài</td>
+                                    <td>Quần</td>
+                                    <td>
+                                        <a href="#" class="active-link">
+                                            <i class="fa-solid fa-pen-to-square"></i>
+                                        </a>
+                                        
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="container-footer">
+                <p class="footer-content">Copyright © 2022 High. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/scripts/category.js"></script>
+</body>
+</html>
